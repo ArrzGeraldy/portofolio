@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-porto {
+  transition: ease 0.3s;
+}
+
+.link-porto:hover .image-porto {
+  transform: scale(102%);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #383838;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f2613f;
+  border-radius: 1rem;
+}
