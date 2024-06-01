@@ -15,7 +15,7 @@ const Sidebar = () => {
           className="w-24 h-24 object-cover bg-cover bg-center  rounded-full"
         ></div>
       </div>
-      <h1 className="text-4xl text-center lg:text-start text-white font-bold">
+      <h1 className="text-3xl text-center text-white font-bold">
         Gerry Geraldy
       </h1>
 

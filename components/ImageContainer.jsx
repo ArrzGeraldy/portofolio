@@ -7,6 +7,7 @@ const ImageContainer = ({ imageName }) => {
       src={`/assets/images/${imageName}`}
       width={300}
       height={300}
+      priority
       alt="..."
       unoptimized={true}
       className="lg:w-[25rem] w-full rounded-xl h-auto shadow-md image-porto"

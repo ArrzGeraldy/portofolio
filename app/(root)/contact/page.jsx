@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div className="w-full">
       <Title title={"Contact."} />
-      <div className="flex flex-col gap-4 mt-12 text-gray-300">
+      <div className="flex flex-col gap-4 mt-12  text-gray-300">
         <div className="flex gap-2 items-center">
           <div className="bg-color-gray rounded-lg px-2 py-2 text-color-orange">
             <FiMail size={28} />
@@ -27,9 +27,9 @@ const page = () => {
           </div>
           <Link
             href={"https://www.instagram.com/gerry.graldy/"}
-            className="underline"
+            className="underline "
           >
-            https://www.instagram.com/gerry.graldy
+            instagram.com/gerry.graldy
           </Link>
         </div>
       </div>
