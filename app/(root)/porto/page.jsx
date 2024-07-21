@@ -34,7 +34,7 @@ const page = () => {
           <ImageContainer imageName={"cashier-pos.png"} />
 
           <div>
-            <h4 className="text-gray-300 font-medium text-xl">Event Share</h4>
+            <h4 className="text-gray-300 font-medium text-xl">Cashier Pos</h4>
             <CashierIcons />
           </div>
         </Link>
