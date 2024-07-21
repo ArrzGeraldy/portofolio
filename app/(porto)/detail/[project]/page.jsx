@@ -2,6 +2,7 @@
 import Title from "@/components/Title";
 import EventIcons from "@/components/porto/EventIcons";
 import FoodIcons from "@/components/porto/FoodIcons";
+import CashierIcons from "@/components/porto/CashierIcons";
 import { portoDetails } from "@/data/porto";
 import Link from "next/link";
 import React from "react";
@@ -15,11 +16,9 @@ const Page = ({ params }) => {
   });
 
   const renderIcon = () => {
-    if (porto.name == "food") {
-      return <FoodIcons />;
-    } else if (porto.name == "event") {
-      return <EventIcons />;
-    }
+    if (porto.name == "food") return <FoodIcons />;
+    if (porto.name == "event") return <EventIcons />;
+    if (porto.name == "cashier-pos") return <CashierIcons />;
   };
 
   return (
@@ -44,6 +43,7 @@ const Page = ({ params }) => {
                 <div key={i} className="flex gap-2 items-center">
                   <FaLink className="text-gray-300" />
                   <Link
+                    target="_blank"
                     href={link}
                     className="underline text-sky-500 hover:text-color-orange transition-all"
                   >

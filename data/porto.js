@@ -19,4 +19,11 @@ export const portoDetails = [
       "https://github.com/ArrzGeraldy/api-sociale",
     ],
   },
+
+  {
+    name: "cashier-pos",
+    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque magni temporibus, vero non blanditiis ab amet accusantium excepturi reiciendis eaque molestias? Maiores eos nostrum, doloribus sequi nesciunt facilis tempore porro repudiandae adipisci ducimus doloremque itaque aspernatur deleniti minima magnam culpa asperiores possimus quisquam vitae unde commodi fuga. At quod amet obcaecati doloribus earum consequatur culpa necessitatibus nobis maxime. Similique sequi cumque quia non totam, accusantium exercitationem dolore vitae maiores, error dolorem iure excepturi nostrum alias natus sit, minus aperiam! Laudantium.",
+    title: "Cashier Pos System",
+    links: ["https://github.com/ArrzGeraldy/cashier-pos"],
+  },
 ];
