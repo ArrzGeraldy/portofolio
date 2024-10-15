@@ -21,7 +21,7 @@ const Sidebar = () => {
 
       <div className="w-full flex justify-center">
         <Link
-          href={"/files/gerry_resume.pdf"}
+          href={"/files/gerry_cv.pdf"}
           target="_blank"
           rel="noopener noreferrer"
           locale={false}
